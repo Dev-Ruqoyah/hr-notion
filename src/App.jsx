@@ -7,6 +7,10 @@ import Plan from './Component/Plan'
 import Organize  from './Component/Organize'
 import Aiapp from './Component/aiapp'
 import Notion from './Component/notion'
+import Template from './Component/Template'
+import Work from './Component/Work'
+import Start from './Component/Start'
+import Footer from './Component/Footer'
 
 function App() {
  
@@ -21,6 +25,10 @@ function App() {
      <Organize/>
      <Aiapp/>
      <Notion/>
+     <Template/>
+     <Work/>
+     <Start/>
+     <Footer/>
     </>
   )
 }
