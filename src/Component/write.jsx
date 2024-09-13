@@ -17,7 +17,7 @@ const Write = () => {
                         subtitle={"Capture ideas, gather feedback from teammates, and ask AI to add the finishing touches."}
                         link={"Explore docs & notes"}
                     />
-                    <div className="grid grid-cols-3 container mx-auto gap-10">
+                    <div className="grid lg:grid-cols-3 md:grid-cols-2   container mx-auto gap-10">
                         <Subsect image={block} header={"Building Blocks"} subheader={"100+ content types to communicate any idea."}/>
 
                         <Subsect image={att} header={"Collaborative tools"} subheader={"Built for teams to share, suggest, and comment."}/>

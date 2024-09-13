@@ -4,8 +4,8 @@ const Subsect = ({image,header,subheader}) => {
         <>
         
             <div className="container mx-auto">
-                <div className="gr">
-                    <div className="flex flex-col">
+                <div className="container md:px-3 px-10 mx-auto">
+                    <div className="flex flex-col mx-auto">
                         <img src={image} className="w-20" alt="" />
                         <div className="text">
                             <h4 className="text-xl font-bold">{header}</h4>

@@ -17,7 +17,7 @@ const Organize = () => {
                         subtitle={"No more endless searching for the info you need. Everything you and your team store in Notion is accessible in an instant."}
                         link={"Explore knowledge management"}
                     />
-                    <div className="grid grid-cols-3 container mx-auto gap-10">
+                    <div className="grid lg:grid-cols-3 md:grid-cols-2 container mx-auto gap-10">
                         <Subsect image={team} header={"Teamspaces"} subheader={"Dedicated space for every team and project."}/>
 
                         <Subsect image={inte} header={"Integrations"} subheader={"Connected to all your favorite tools."}/>

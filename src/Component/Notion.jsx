@@ -17,7 +17,7 @@ const Notion = () => {
                         subtitle={"Built right into your workspace, Notion AI is at the ready to brainstorm ideas, summarize, help you write, and find what you’re looking for." }
                         link={"Try Notion AI"}
                     />
-                    <div className="grid grid-cols-3 container mx-auto gap-10">
+                    <div className="grid lg:grid-cols-3 md:grid-cols-2 container mx-auto gap-10">
                         <Subsect image={answer} header={"Instant answers"} subheader={"Ask any question about your team’s docs and projects."}/>
 
                         <Subsect image={edit} header={"Personalized editor"} subheader={"Generate content that’s always relevant."}/>

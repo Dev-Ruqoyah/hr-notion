@@ -9,13 +9,13 @@ const Navbar = () => {
   return (
     <>
       <div className="container-sm mx- py-3 px-2 fixed w-full z-40 bg-white top-0 mb-der border-b-2 border-0">
-        <div className="navbar flex justify-between gap-3">
+        <div className="navbar flex justify-between items-center gap-3">
           <div className="nav-links flex gap-3">
             <div className="nav-logo  flex items-center h-10 ">
               <img src={logo} alt="" className="w-11 " />
               <p className="font-extrabold  font-sans text-xl">Notion</p>
             </div>
-            <div className="dropdown">
+            <div className="dropdown md:block hidden">
               <ul className="flex items-center">
                 <div className="one w-18 h-11">
                   <li

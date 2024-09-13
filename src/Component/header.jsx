@@ -4,7 +4,7 @@ const Header = ({ headertext }) => {
     <>
       <div className="container mx-auto">
         <div className="header">
-          <h4 className="text-6xl w-1/2 font-bold">
+          <h4 className="md:text-6xl text-3xl lg:w-1/2 font-bold">
             {headertext}
            
           </h4>

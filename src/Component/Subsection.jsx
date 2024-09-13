@@ -8,7 +8,7 @@ const Subsection = ({ title, subtitle, link, texte, section }) => {
           <p className="bg-slate-200 w-24 text-center rounded-md font-semibold px-3">
             {section}
           </p>
-          <p className="md:text-6xl text-5xl font-semibold break-words w-3/4">
+          <p className="md:text-6xl text-5xl font-semibold break-words lg:w-3/4">
             {title}
           </p>
           <p className="text-xl text-wrap md:w-4/5">{subtitle}</p>

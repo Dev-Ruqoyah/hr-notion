@@ -174,7 +174,7 @@ const WorkContent = () => {
   ];
   return <>
     <div className="container mx-auto">
-        <div className="grid grid-cols-4 gap-10   py-10">
+        <div className="grid lg:grid-cols-4 md:grid-cols-3 gap-10   py-10">
             {WorkArray.map(({icon,title,subtitle},index) => (
                 <WorkTemplate key={index} icon={icon} title={title} subtitle={subtitle} />
 

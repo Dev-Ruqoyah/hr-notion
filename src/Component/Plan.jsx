@@ -17,7 +17,7 @@ const Plan = () => {
                         subtitle={"There’s a lot to keep track of. Notion’s flexible pages allow you to design your ideal workflow and view it by timeline, task, team, or level of doneness." }
                         link={"Explore projects"}
                     />
-                    <div className="grid grid-cols-3 container mx-auto gap-10">
+                    <div className="grid lg:grid-cols-3 md:grid-cols-2 container mx-auto gap-10 ">
                         <Subsect image={checklist} header={"Tasks and to-dos"} subheader={"Tackle any project, big or small."}/>
 
                         <Subsect image={calendarSheet} header={"Custom views"} subheader={"Visualize work in any format, from calendars to kanban boards."}/>
